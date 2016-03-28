@@ -1,0 +1,23 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package audiomanager;
+
+
+/**
+ * Main class
+ */
+import java.util.Scanner;
+public class AudioManager {
+
+    static Scanner scan= new Scanner(System.in);
+    
+    public static void main(String[] args) throws Exception  {
+    
+    SelectCommand selCom=new SelectCommand();
+    selCom.selectCommand();
+    }
+    
+}
