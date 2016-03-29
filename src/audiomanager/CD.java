@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package audiomanager;
-
+import GUI.*;
 /**
  * Class that gets called to change directories
  */

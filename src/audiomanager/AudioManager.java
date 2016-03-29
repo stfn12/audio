@@ -10,14 +10,16 @@ package audiomanager;
  * Main class
  */
 import java.util.Scanner;
+import GUI.*;
 public class AudioManager {
 
     static Scanner scan= new Scanner(System.in);
     
-    public static void main(String[] args) throws Exception  {
-    
-    SelectCommand selCom=new SelectCommand();
-    selCom.selectCommand();
+    public static void main(String[] args) throws Exception
+    {
+        new test();
+        SelectCommand selCom=new SelectCommand();
+        selCom.selectCommand();
     }
-    
+
 }

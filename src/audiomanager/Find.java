@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package audiomanager;
-
+import GUI.*;
 import java.io.File;
 import org.apache.tika.metadata.Metadata;
 

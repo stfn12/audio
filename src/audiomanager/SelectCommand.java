@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Scanner;
 import org.apache.commons.lang.StringUtils;
 import org.apache.tika.exception.TikaException;
-
+import GUI.*;
 import org.xml.sax.SAXException;
 
 /**
