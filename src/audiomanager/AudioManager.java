@@ -17,6 +17,7 @@ public class AudioManager {
     
     public static void main(String[] args) throws Exception
     {
+        MusicPlayerGUI x = new MusicPlayerGUI();
         SelectCommand selCom=new SelectCommand();
         selCom.selectCommand();
     }

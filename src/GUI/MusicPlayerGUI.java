@@ -53,9 +53,9 @@ public class MusicPlayerGUI {
                 songName = songName.replaceAll("]","");
                 System.out.println(songName);
                 File f = new File(songName);
-                if (f.exists()&&isMusicFile(f)) {
+                if (f.exists()) {
                     Fav fav = new Fav();
-                    fav.add(f);
+                    //fav.addFav(f);
                     info.setText("file: " + f.getName() + " added to favourites");
                 }
 
@@ -72,10 +72,10 @@ public class MusicPlayerGUI {
                 songName = songName.replaceAll("]","");
                 System.out.println(songName);
                 File f = new File(songName);
-                if (f.exists()&&isMusicFile(f)) {
+                if (f.exists()) {
                     Info i = new Info();
-                    output = i.extract(f);
-                    info.setText(output);
+                    //output = i.extract(f);
+                    //info.setText(output);
                 }
             }
         });
@@ -108,7 +108,7 @@ public class MusicPlayerGUI {
                     songName = songName.replaceAll("]","");
                     System.out.println(songName);
                     File f = new File(songName);
-                    if (f.exists()&&isMusicFile(f)){
+                    if (f.exists()){
                         Desktop desktop=Desktop.getDesktop();
                         try {
                             desktop.open(f);
@@ -124,7 +124,7 @@ public class MusicPlayerGUI {
                     songName = songName.replaceAll("]","");
                     System.out.println(songName);
                     File f = new File(songName);
-                    if (f.exists()&&isMusicFile(f)) {
+                    if (f.exists()) {
                         JPopupMenu popupMenu = new JPopupMenu();
                         popupMenu.add(addFav);
                         popupMenu.add(getInfo);
